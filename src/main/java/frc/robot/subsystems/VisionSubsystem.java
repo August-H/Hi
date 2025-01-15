@@ -29,11 +29,11 @@ import frc.lib.util.EstimatedRobotPose;
 
 public class VisionSubsystem extends SubsystemBase { // handles LL3 April Tag Detection
   private Optional<EstimatedRobotPose> m_estimatedRobotPose;
-  private PhotonCamera camera = new PhotonCamera("Camera1OV9281");
+  // private PhotonCamera camera = new PhotonCamera("Camera1OV9281");
 
-  private NetworkTable m_NetworkTableFront;
+  // private NetworkTable m_NetworkTableFront;
   //private NetworkTable m_NetworkTableBack;
-  private Vector m_targetVector; // holds vector from target to camera
+  // private Vector m_targetVector; // holds vector from target to camera
 
   public VisionSubsystem() {
     // m_NetworkTableFront = NetworkTableInstance.getDefault().getTable("photonvision").getSubTable("Camera1OV9281");
